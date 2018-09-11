@@ -3,7 +3,8 @@ def line(currentLine)
 
   if currentLine.length == 0 {
     puts "The line is currently empty."
-  } else {
+    return currentLine
+  } 
 
   lineAnnouncement = "The line is currently:"
   i = 0
@@ -11,8 +12,6 @@ def line(currentLine)
     lineAnnouncement = lineAnnouncement + " " + i + 1 + ". " + currentLine[i]
     i =+ 1
   end
-  }
-end
   return currentLine
 end
 
