@@ -12,6 +12,7 @@ def line(currentLine)
     i =+ 1
   end
   }
+end
   return currentLine
 end
 
