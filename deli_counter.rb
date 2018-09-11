@@ -4,6 +4,7 @@ def line(currentLine)
     {puts "The line is currently empty."
       return currentLine
     }
+  end
   lineAnnouncement = "The line is currently:"
   i = 0
   while i < currentLine
