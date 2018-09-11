@@ -5,7 +5,6 @@ def line(currentLine)
       return currentLine
     end
     }
-  end
   lineAnnouncement = "The line is currently:"
   i = 0
   while i < currentLine
