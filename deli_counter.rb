@@ -1,9 +1,7 @@
 # Write your code here.
 def line(currentLine)
 
-  if currentLine.length == 0  puts "The line is currently empty."
-
-  end
+  #if currentLine.length == 0  puts "The line is currently empty."
   lineAnnouncement = "The line is currently:"
   i = 0
   while i < currentLine
