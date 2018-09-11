@@ -3,7 +3,7 @@ def line(currentLine)
   lineAnnouncement = "The line is currently:"
   i = 0
   while i < currentLine
-    lineAnnouncement = lineAnnouncement + " " + i + 1 + ". " currentLine[i]
+    lineAnnouncement = lineAnnouncement + " " + i + 1 + ". " + currentLine[i]
     i =+ 1
   end
   return currentLine
