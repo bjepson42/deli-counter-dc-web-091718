@@ -1,6 +1,6 @@
 # Write your code here.
 def line(currentLine)
-  if currentLine.length == 0  
+  if currentLine.length == 0
     {puts "The line is currently empty."
 
     } else {
@@ -12,7 +12,7 @@ def line(currentLine)
   }
   end
   return currentLine
-  
+
 end
 
 def take_a_number(currentLine, newCustomer)
